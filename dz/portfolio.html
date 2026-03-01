@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="custom.css"/>
+
+</head>
+<body>
+    <!--- Навигация --->
+    <nav class="navbar navbar-expand-lg bg-custom navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-code-square me-2"></i>Гвоздева Вероника
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Обо мне</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Навыки</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portgolio">Портфолио</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    
+    <!--- Заголовок --->
+    <section id="home" class="hero-section">
+        <div class="container hero-content">
+            <h1 class="hero-title">Привет, я Гвоздева Вероника!</h1>
+            <p class="hero-text">Студентка ВФ Волгу. Учусь на специальсти ИСП, создаю современные и адаптивные сайты.</p>
+            <a href="#portfolio" class="btn-custom">Смотреть работы</a>
+        </div>
+    </section>
+
+    <!--- Обо мне --->
+    <section id="about" class="section-about">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="row about-row">
+                <div class="col-md-4 about-image">
+                    <img src="/dz/img/ava.png" alt="Мое фото" class="about-img">
+                </div>
+                <div class="col-md-8 about-text">
+                    <h4>Гвоздева Вероника</h4>
+                    <p class="about-lead">Меня зовут Вероника. Я учусь веб-разрабтке. Изучаю HTML, CSS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--- Навыки --->
+    <section id="skills" class="section-skills">
+        <div class="container">
+            <h2 class="section-title">Мои навыки</h2>
+            <div class="row skills-row">
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <i class="bi bi-filetype-html skill-icon"></i>
+                        <h5 class="skill-title">HTML & CSS</h5>
+                        <p class="skill-text">Flexbox, Grid, адаптивная сборка под все устройства.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <i class="bi bi-bootstrap skill-icon"></i>
+                        <h5 class="skill-title">Bootstrap</h5>
+                        <p class="skill-text">Уверенное использование сеток, компонетрв и утилит для быстрой разрбаотки.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <i class="bi bi-palette skill-icon"></i>
+                        <h5 class="skill-title">CSS</h5>
+                        <p class="skill-text">Анимации, адаптивная верстка, Flexbox, Grid, кастомные стили.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--- Портфолио --->
+    <section id="portfolio" class="section-portfilio">
+        <div class="container">
+            <h2 class="section-title">Мои проекты</h2>
+            <div class="row portfolio-row">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="portfolio-card">
+                        <img src="https://placeholder.apptor.studio/200/200/product2.png" class="portfolio-img" alt="Проект 1">
+                        <div class="portfolio-card-body">
+                            <h5 class="portfolio-card-title">Интернет магазин</h5>
+                            <p class="portfolio-card-text">На Bootstrap и CSS.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="portfolio-card">
+                        <img src="https://placeholder.apptor.studio/200/200/product2.png" class="portfolio-img" alt="Проект 2">
+                        <div class="portfolio-card-body">
+                            <h5 class="portfolio-card-title">Сайт-портфолио</h5>
+                            <p class="portfolio-card-text">Собственный сайт.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="portfolio-card">
+                        <img src="https://placeholder.apptor.studio/200/200/product2.png" class="portfolio-img" alt="Проект 3">
+                        <div class="portfolio-card-body">
+                            <h5 class="portfolio-card-title">YouTube clone</h5>
+                            <p class="portfolio-card-text">Клон YouTube.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="portfolio-card">
+                        <img src="https://placeholder.apptor.studio/200/200/product2.png" class="portfolio-img" alt="Проект 4">
+                        <div class="portfolio-card-body">
+                            <h5 class="portfolio-card-title">Сайт хост(в разработке)</h5>
+                            <p class="portfolio-card-text">Сайт показывающий нагрузку на хост.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="portfolio-card">
+                        <img src="https://placeholder.apptor.studio/200/200/product2.png" class="portfolio-img" alt="Проект 5">
+                        <div class="portfolio-card-body">
+                            <h5 class="portfolio-card-title">Визитка</h5>
+                            <p class="portfolio-card-text">Сайт визитка.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-contact">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь со мной</h2>
+            <div class="row contact-row">
+                <div class="col-lg-8 contact-form-col">
+                    <form class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="nameInput" class="form-label">Ваше имя</label>
+                            <input type="text" class="form-control" id="nameInput" placeholder="Введите имя" required>
+                            <div class="invalid-feedback">Пожалуйста, введите имя.</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="emailInput" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="emailInput" placeholder="Введите почту" required>
+                            <div class="invalid-feedback">Введите корректный email.</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="messageInput" class="form-label">Сообщение</label>
+                            <textarea class="form-control" id="messageInput" rows="4" placeholder="Введите сообщение" required></textarea>
+                            <div class="invalid-feedback">Напишите сообщение.</div>
+                        </div>
+                        
+                        <div class="form-submit">
+                            <button class="btn-submit" type="submit">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-row">
+                <div class="col-md-4 footer-col">
+                    <h5 class="footer-title">Деушев Тимур</h5>
+                    <p class="footer-text">Веб-разработчк. Создаю сайты, которые работают (к сожалению)</p>
+                    <p class="footer-copyright">&copy; 2026 Все права защищены.</p>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <h5 class="footer-title">Быстрые ссылки</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home" class="footer-link">Главная</a></li>
+                        <li><a href="#about" class="footer-link">Обо мне</a></li>
+                        <li><a href="#skills" class="footer-link">Навыки</a></li>
+                        <li><a href="#portfolio" class="footer-link">Портфолио</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <h5 class="footer-title">Социальные сети</h5>
+                    <div class="social-links">
+                        <a href="https://github.com/nika0-0-11" class="social-link"><i class="bi bi-github"></i></a>
+                        <a href="https://github.com/timur-ww" class="social-link"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        (function () {
+            'use strict'
+            var forms = document.querySelectorAll('.contact-form')
+            Array.prototype.slice.call(forms).forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    } else {
+                        event.preventDefault();
+                        alert('Форма отправлена');
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+</body>
+</html>
